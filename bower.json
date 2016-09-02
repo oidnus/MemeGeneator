@@ -1,0 +1,25 @@
+{
+  "name": "meme_generator",
+  "version": "v1",
+  "dependencies": {
+    "bootstrap-sass": "~3.3.7",
+    "jquery": "~2.1.1",
+    "fabric": "~1.6.3",
+    "select2": "~4.0.3",
+    "mjolnic-bootstrap-colorpicker": "^2.3.3",
+    "FileSaver.js": "filesaver.js#^0.0.2"
+  },
+  "overrides": {
+    "bootstrap-sass": {
+      "main": [
+        "assets/javascripts/bootstrap.js",
+        "assets/stylesheets/_bootstrap.scss",
+        "assets/fonts/bootstrap/glyphicons-halflings-regular.eot",
+        "assets/fonts/bootstrap/glyphicons-halflings-regular.svg",
+        "assets/fonts/bootstrap/glyphicons-halflings-regular.ttf",
+        "assets/fonts/bootstrap/glyphicons-halflings-regular.woff",
+        "assets/fonts/bootstrap/glyphicons-halflings-regular.woff2"
+      ]
+    }
+  }
+}
